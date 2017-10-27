@@ -1,0 +1,100 @@
+Trailers
+0
+0
+3
+Main Street[+Saloon[+Hotel
+(+
+Casting Office
+0
+0
+3
+Train Station[+Ranch[+Secret Hideout
+(+
+Main Street
+3
+4
+1[+Railroad Worker[+I am a steel-driving man!
+2[+Falls off Roof[+Aaaaiiiigggghh!
+2[+Woman in Black Dress[+Well, Ill be!
+4[+Mayor McGinty[+People of Deadwood!
+3
+Trailers[+Saloon[+Jail
+(+
+Saloon
+2
+2
+2[+Woman in Red Dress[+Come up and see me!
+1[+Reluctant Farmer[+I aint so sure about that!
+4
+Main Street[+Trailers[+General Store[+Bank
+(+
+Hotel
+3
+4
+1[+Faro Player[+Hit me!
+1[+Sleeping Drunkard[+Zzzzz ... Whiskey!
+2[+Falls from Balcony[+Arrrgghh!
+3[+Australian Bartender[+What will it be, mate?
+3
+Trailers[+Bank[+Church
+(+
+Bank
+1
+2
+3[+Flustered Teller[+Would you like a large bill, sir?
+2[+Suspicious Gentleman[+Can you be more specic?
+4
+Saloon[+Ranch[+Church[+Hotel
+(+
+Church
+2
+2
+1[+Dead Man[+....
+2[+Crying Woman[+Oh, the humanity!
+3
+Bank[+Secret Hideout[+Hotel
+(+
+Ranch
+2
+3
+3[+Man Under Horse[+A little help here!
+2[+Saucy Fred[+Thats what she said!
+1[+Shot in Leg[+Ow! Me Leg!
+4
+Bank[+General Store[+Casting Office[+Secret Hideout
+(+
+Secret Hideout
+3
+4
+1[+Clumsy Pit Fighter[+Hit me!
+2[+Thug with Knife[+Meet Suzy, my murdering knife.
+3[+Dangerous Tom[+Theres two ways we can do this....
+4[+Penny who is Lost[+Oh, woe! For I am lost!
+3
+Church[+Ranch[+Casting Office
+(+
+Jail
+1
+2
+2[+Prisoner in Cell[+Zzzzzzz... Whiskey!
+3[+Feller in Irons[+Ah kilt the wrong man!
+3
+Main Street[+Train Station[+General Store
+(+
+General Store
+2
+2
+1[+Man in Overalls[+Looks like a storm is coming in.
+3[+Mister Keach[+Howdy, stranger.
+4
+Train Station[+Jail[+Saloon[+Ranch
+(+
+Train Station
+3
+4
+1[+Crusty Prospector[+Aww, peaches!
+1[+Dragged by Train[+Omgeezers!
+2[+Preacher with Bag[+The Lord will provide.
+4[+Cyrus the Gunfighter[+Git to fighting or git away!
+3
+Jail[+General Store[+Casting Office
