@@ -12,14 +12,14 @@ linux
 Run the program twice, once as a server and another time as the client.
 
 Server:
-'''
+"""
 $Python3 lexiguess.py --mode server --port aPort --word theWordToBeGuessed
-'''
+"""
 
 Client:
-'''
+"""
 $Python3 lexiguess.py --mode client --port aPort --ip myip
-'''
+"""
 
 ## Authors
 
