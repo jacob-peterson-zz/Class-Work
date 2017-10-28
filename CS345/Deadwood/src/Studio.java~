@@ -1,0 +1,260 @@
+
+
+
+/* Author: Daniel Lorigan, Margot Maxwell, Jacob Peterson
+ * Date: 5/5/2017
+ * Purpose: 
+ * Coupled with: Room, Scene, and Role
+ */
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Studio  {
+  private Scene activeScene; // field for current scene
+  private int maxShotCounters; // holds max, for day resets
+  private int currShotCounters; // this is the variable that will be changed
+  private ArrayList<Role> extraRoles;
+  private int numRoles;
+  private String name; //added from Room 
+  private ArrayList<String> adjRooms; //added from Room 
+  private ArrayList<Integer> currentPlayers; //added from Room 
+  private ArrayList<int[]> shotCounters;
+  private int x;
+  private int y;
+  private int width;
+  private int height;
+
+  public Studio(String name, int maxShotCounters, ArrayList<int[]> shotCounters, ArrayList<Role> roles, ArrayList<String> adjRooms, int numRoles, int x, int y, int height, int width){
+    this.activeScene = null;
+    this.maxShotCounters = maxShotCounters;
+    this.currShotCounters = maxShotCounters;
+    this.extraRoles = roles;
+    this.numRoles = numRoles;
+    this.name = name; //added from Room 
+    this.adjRooms = adjRooms; //added from Room 
+    this.currentPlayers = new ArrayList<Integer>(); //holds player Number
+    this.shotCounters = shotCounters;
+    this.x = x;
+    this.y = y;
+    this.height = height;
+    this.width = width;
+  }
+  //TODO add getter methods for x,y,height, width
+  //used to decrease the number of shot counters
+  public void decrementShotCounter() {
+    currShotCounters--;
+  }
+  
+  
+  // resets shot counter to maxShotCounters
+  public void resetShotCounter() {
+    this.currShotCounters = this.maxShotCounters;
+  }
+  
+  public void removePlayer(int playerNumber){
+    this.currentPlayers.remove(Integer.valueOf(playerNumber));
+  }
+  
+  public void addPlayer(int playerNumber){
+    this.currentPlayers.add(Integer.valueOf(playerNumber));
+  }
+  
+  //Clears scene from studio, pays bonuses, clears roles of their players and vice versa
+  public void endScene(){
+    Role role = null;
+    System.out.println(activeScene.getMovieTitle() + " has finished filming!");
+    //Extra roles is working now.
+    for (int i = 0; i < extraRoles.size(); i++) {
+    //for (int i = 0; i < extraRoles.length; i++) {
+      role = extraRoles.get(i);
+      if (role.getOccupied()) {
+        Player p = role.getCurrentPlayer();
+        p.setDollars(p.getDollars() + role.getRequiredRank());
+        System.out.println("Player " + p.getPlayerNum() + " earned " + role.getRequiredRank() + " dollars!");
+      }
+    }
+    //Give bonuses
+    Role[] leadRoles = activeScene.getRoles();
+    Player leadPlayer = null;
+    ArrayList<Role> leads = new ArrayList<Role>();
+    //finds a player to roll the dice
+    for (int i = 0; i < leadRoles.length; i++) {
+      if (leadRoles[i].getOccupied()) {
+        leadPlayer = leadRoles[i].getCurrentPlayer();
+      }
+      leads.add(leadRoles[i]);
+    }
+    if(leadPlayer != null){
+      ArrayList<Integer> rolls = new ArrayList<Integer>();
+      //roll the dice *budget* times
+      for (int i = 0; i < activeScene.getBudget(); i++) {
+        rolls.add(leadPlayer.rollDie());
+        System.out.println("Roll " + (i+1) + ": " + rolls.get(i));
+      }
+      Collections.sort(rolls);
+      Collections.reverse(rolls);
+      Collections.reverse(leads);
+    
+      for (int i = 0; i < rolls.size(); i++){
+        role = leads.get(i%leads.size());
+        if (role.getOccupied()) {
+          Player p = role.getCurrentPlayer();
+          p.setDollars(p.getDollars() + rolls.get(i));
+          System.out.println("Player " + p.getPlayerNum() + " earned " + rolls.get(i) + " dollars!");
+        }
+      }
+    }
+    
+    unemployCurrentPlayers();
+    activeScene.setActive(false);
+  }
+  
+  //Resets the studio and all of the players in it after the scene is over.
+  public void unemployCurrentPlayers(){
+    Role r = null;
+    Player p = null;
+    for (int i = 0; i < extraRoles.size(); i++) {
+      r = extraRoles.get(i);
+      p = r.getCurrentPlayer();
+      if (r.getOccupied() && p.getEmployed()) {
+        p.setEmployed(false);
+        p.setPracticeChips(0);
+        p.getCurrentRole().setCurrentPlayer(null);
+        r.setCurrentPlayer(null);
+        p.setCurrentRole(null);
+        r.setOccupied(false);
+      }
+    }
+    for (int i = 0; i < activeScene.getRoles().length; i++) {
+      r = activeScene.getRoles()[i];
+      p = r.getCurrentPlayer();
+      if (r.getOccupied() && p.getEmployed()) {
+        p.setEmployed(false);
+        p.setPracticeChips(0);
+        p.getCurrentRole().setCurrentPlayer(null);
+        r.setCurrentPlayer(null);
+        p.setCurrentRole(null);
+      }
+    }
+  }
+    
+  public void displayStudioState() {
+    
+    //name
+    System.out.println("Room name: " + name);
+    //active scenes
+    try{
+      System.out.println("Scene name: " + activeScene.getMovieTitle());
+      System.out.println("Scene Shots left: " + currShotCounters);
+      System.out.println("Budget: " + activeScene.getBudget());
+      //need to also show which players are in the room
+      System.out.print("Players in room: ");
+      for (Integer p : getCurrentPlayers()){
+      System.out.print("Player " + p +"  ");
+      }
+      //roles
+      System.out.println("\n\n--Lead roles--");
+      Role [] roles = activeScene.getRoles();
+      for(int i = 0; i < roles.length; i++){
+        Role role = roles[i];
+        System.out.println(role.getCharacterName() + " '" + role.getLine() + "' " + role.getRequiredRank());
+        if(role.getOccupied()){
+          
+        }
+      }
+      
+      System.out.println("\n--Extra roles--");
+      for(Role r : this.extraRoles){
+        System.out.println(r.getCharacterName() + " '" + r.getLine() + "' " + r.getRequiredRank());
+      }
+    
+    } catch (NullPointerException e){
+      //need to also show which players are in the room
+    System.out.print("Players in room: ");
+    for (Integer p : getCurrentPlayers()){
+      System.out.print("Player " + p +"  ");
+    }
+    System.out.println();
+    }
+    
+    
+    
+  }
+  
+  // check if studio has an active scene
+  public boolean sceneActive() {
+    return activeScene.getActive();
+  }
+  
+  //getters
+  public Scene getActiveScene(){
+    return this.activeScene;
+  }
+  
+  public int getMaxShotCounters(){
+    return this.maxShotCounters;
+  }
+  
+  public int getCurrShotCounters(){
+    return this.currShotCounters;
+  }
+  
+  public int getNumRoles(){
+    return this.numRoles;
+  }
+  
+  public ArrayList<Role> getExtraRoles() {
+    return this.extraRoles;
+  }
+  
+  public String getName(){
+    return this.name;
+  }
+  
+  public ArrayList<String> getAdjacentRooms() {
+    return this.adjRooms;
+  }
+  
+  //puts everyone in trailers
+  public void setCurrentPlayers(int numPlayers, Player[] players){
+    if(name.equalsIgnoreCase("Trailers")){
+      for(int i = 0; i < numPlayers; i++)
+        currentPlayers.add(players[i].getPlayerNum());
+    }
+  }
+    
+    
+  
+  public void setActiveScene(Scene scene){
+    this.activeScene = scene;
+  }
+  
+  public void setCurrShotCounters(int counters){
+    this.currShotCounters = counters;
+  }
+  
+  
+    //checks if a room is adjacent to this room
+  public boolean checkAdjacency(Studio adjRoom){
+    for (int i=0; i < adjRooms.size(); i++){
+      if(adjRoom.getName() == adjRooms.get(i)){
+        return true;
+      }
+    }
+    return false;
+  }
+  
+  public ArrayList<Integer> getCurrentPlayers(){
+    return this.currentPlayers;
+  }
+  
+  public void addCurrentPlayer(int playerNumber){
+    this.currentPlayers.add(playerNumber);
+  }
+  
+  public void clearCurrentPlayers(){
+    this.currentPlayers.clear();
+  }
+  
+  
+}

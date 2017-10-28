@@ -1,0 +1,347 @@
+Evil Wears a Hat
+7
+Calhoun is separated from the group during a white- knuckle chase near Desperation Blu.
+4
+3
+2[+Defrocked Priest[+Look out below!
+3[+Marshal Canfield[+Hold fast!
+4[+One-Eyed Man[+Balderdash!
+(+
+Law and the Old West
+20
+Charlie Three Guns Henderson cooperates with Johnny Law and reluctantly enters the witless protection program.
+3
+3
+1[+Rug Merchant[+Don’t leave my store!
+2[+Banker[+Trust me.
+5[+Talking Mule[+Nice work, Johnny!
+(+
+The Life and Times of John Skywater
+22
+Disheartened by his lack of business acumen and his poor choice of investment partners, John Skywater sets off into the Cree Nation to convince them to kidnap his wife. 
+5
+2
+5[+Auctioneer[+Going once!
+6[+General Custer[+Go West!
+(+
+My Years on the Prairie
+32
+Virgil and Stacy set out at midnight to track down the stray cows, unaware that they are being pursued by inch- high aliens from outer space.
+5
+3
+2[+Drunk[+Where’s Willard?
+4[+Librarian[+Shhhhh!
+6[+Man with Hay[+Hey!
+(+
+Buffalo Bill: The Lost Years
+12
+Buffalo Bill’s companion Marty disappears in a freak electrical storm. Bill enlists the aid of the Sidekick Friends Network.
+4
+3
+2[+Hollering Boy[+Over here, mister
+3[+Drunk Farmer[+Git outta me barn!
+5[+Meek Little Sarah[+He’s so cute!
+(+
+Square Deal City
+14
+Douglas and Katherine confront Aunt Martha about her missing pies. Devin sulks quietly in a side room.
+6
+3
+2[+Squeaking Boy[+I’ll say!
+4[+Pharaoh Imhotep[+Attack, soldiers!
+6[+Aunt Martha[+You got nothin’!
+(+
+Davy Crockett: A Drunkard’s Tale
+31
+Robert enlists the aid of several farm animals in order to ascertain the efficacy of his new hangover remedy.
+4
+2
+4[+The Duck[+Waaaak!
+6[+His Brother[+Waaaaaaak!
+(+
+The Way the West Was Run
+34
+Jose explains patiently, but with thinly veiled contempt, the intricacies of Arizona bureaucracy, as though speaking to a simple and distracted child.
+4
+3
+2[+Town Drunk[+Even me!
+4[+Squinting Miner[+Sure we can!
+5[+Poltergeist[+Wooooo!
+(+
+Down in the Valley
+24
+A tripped waiter is the spark igniting a brawl of cataclysmic proportions. Walter is injured in the neck.
+3
+3
+1[+Angry Barber[+Hold him still!
+3[+Woman with Board[+Nonsense, Frank!
+5[+Man on Fire[+It burns!
+(+
+Ol’ Shooter and Little Doll
+14
+Shooter discovers that he has been proceeding for days with no trousers. This causes him no small embarrassment as he searches for them with Little Doll.
+4
+3
+1[+Sleeping Man[+Snnkkk snnkk snnkk.
+2[+Man with Pig[+Tally-Hooo!
+4[+Shooter[+Where’s my britches?
+(+
+The Robbers of Trains
+19
+Coogan confronts the toughest thug in his gang, Big Jake, in an abbreviated knife fight. Coogan settles the dispute with fearless guile and a kick in the family jewels.
+4
+3
+1[+Buster[+One two three go!
+4[+Man Reading Paper[+Ouchie!
+5[+Fat Pete[+Nice kick, boss!
+(+
+Beyond the Pail: Life without Lactose
+12
+Henry discovers for the first time that his ability to digest cream has disappeared along with his hair. Other cowboys attempt to console him.
+2
+1
+6[+Martin[+Have you tried soy cheese?
+(+
+A Man Called “Cow”
+16
+Nothing will settle the debates among the skeptical locals, short of a demonstration of Hector’s special talents.
+3
+2
+3[+Preacher[+My word!
+6[+Amused Witness[+Tee hee hee!
+(+
+Taffy Commercial
+2
+Jackson encourages the children to eat only taffy, because gum can kill them stone dead.
+2
+2
+3[+Curious Girl[+Are you sure?
+4[+Ghost of Plato[+It happened to me!
+(+
+Gum Commercial
+3
+Inspector Pete speaks to a riveted audience about the many hidden dangers of taffy, not the least of which is that taffy can kill you stone dead.
+2
+2
+2[+Surprised Bison[+Mmrrrrrph! 
+4[+Man with Horn[+Ta daaaa!
+(+
+Jesse James: Man of Action
+8
+Jesse’s brothers Jed and Henry throw him a surprise birthday party. Jesse’s nerves get the better of him when the birthday cake explodes.
+5
+3
+2[+Shot in Back[+Arrrggh!
+4[+Shot in Leg[+Ooh, lordy!
+5[+Leaps into Cake[+Dangit, Jesse!
+(+
+Disaster at Flying J
+6
+After the mine explosion, the traveling circus takes time out to get drunk and start a fight.
+5
+3
+2[+Piano Player[+It’s a nocturne!
+3[+Man in Turban[+My stars!
+4[+Falls on Hoe[+Ow!
+(+
+Shakespeare in Lubbock
+23
+William decides that it is time to be moving on. Julia convinces him to stick around just long enough to get into big trouble.
+3
+3
+1[+Falls from Tree[+What ho!
+3[+Laughing Woman[+Tis to laugh!
+4[+Man with Whistle[+Tweeeeet!
+(+
+Go West, You!
+30
+Susan and Peter encounter some of the perils of the Badlands: rutted mud roads, torrential rain storms, and a bad case of grumble tummy.
+3
+2
+4[+Ex-Convict[+Never again!
+6[+Man with Onion[+Fresh onions!
+(+
+The Life and Times of John Skywater
+15
+John discovers his long-lost sister Marcie, and instructs her in the ways of gun ghting and whiskey distillation.
+5
+3
+3[+Staggering Man[+You never know!
+5[+Woman with Beer[+Howdy, stranger!
+6[+Marcie[+Welcome home!
+(+
+Gun! The Musical
+25
+A song and dance extravaganza, “Hunka Hunka Burnin’ Lead.”
+6
+3
+4[+Looks like Elvis[+Thankyouverymuch.
+5[+Singing Dead Man[+Yeah!
+6[+Apothecary[+Such drugs I have.
+(+
+One False Step for Mankind
+21
+After a dozen failed attempts, one rocket carries Horatio and his six children to the Moon, where they enjoy a picnic and a spirited game of badminton.
+6
+3
+1[+Flustered Man[+Well, I never!
+2[+Space Monkey[+Ook!
+5[+Cowbot Dan[+Bzzzzzt!
+(+
+Humor at the Expense of Others
+16
+Phil and his cohort of unfeeling smart-mouths make fun of Sancho and his great big hat.
+5
+3
+2[+Jailer[+You there!
+4[+Mephistopheles[+Be not afraid!
+5[+Breaks a Window[+Oops!
+(+
+Thirteen the Hard Way
+15
+After some delay, the Pony Express arrives. Isaac, Gwen, Francis, Terry, Conrad, Brooke, Jerry, Howard, MacNeill, Jones, Spike, Cornwall and Crawford are all there.
+5
+3
+1[+Man in Poncho[+Howdy, Jones!
+3[+Ecstatic Housewife[+This is fine!
+5[+Isaac[+The mail!
+(+
+The Search for Maggie White
+12
+Alone in the wilderness, Maggie makes the best of her situation. In what seems like no time at all, she constructs a sturdy two-story house from branches and mud.
+6
+2
+5[+Film Critic[+Implausible!
+6[+Hobo with Bat[+Nice house!
+(+
+How They Get Milk
+2
+Josie asks the Milkman how they get milk. After a thoughtful pause, he begins. Not like you’d expect!
+4
+3
+2[+Cow[+Moo
+3[+St. Clement of Alexandria[+Peace be with you, child!
+4[+Josie[+Yikes!
+(+
+Picante Sauce Commercial
+1
+A dozen grizzled cowboys surround a fire. Suddenly, they exclaim, That’s not mayonnaise!
+2
+2
+3[+Bewhisker’d Cowpoke[+Oh, sweet Lord!
+5[+Dog[+Wurf!
+(+
+My Years on the Prairie
+27
+Louise takes instruction from Henry, the neighbor boy, in an absurdly suggestive explanation of how to plow a field.
+5
+3
+2[+Willard[+Ain’t that a sight?
+3[+Leprechaun[+Begorrah!
+5[+Startled Ox[+Mrr?
+(+
+Jesse James: Man of Action
+14
+A hail of gunfire results when Jesse’s friend Barton marries Jesse’s childhood sweetheart.
+5
+3
+1[+Shot in Head[+Arrrgh!
+4[+Leaps Out of Cake[+Oh, for Pete’s sake!
+6[+Shot Three Times[+Ow! Ow! Ow!
+(+
+Davy Crockett: A Drunkard’s Tale
+12
+In an absurd dream sequence, Crockett recalls an episode of fear and chaos in which his childhood friend Timmy was trapped at the bottom of a well.
+4
+3
+2[+Voice of God[+Grab hold, son!
+3[+Hands of God[+!
+4[+Jack Kemp[+America!
+(+
+Czechs in the Sonora
+25
+Bob reverts to his ancestral ways in a short fight over a disembodied hand.
+4
+2
+5[+Opice (Monkey)[+Ukk! (Ook)!
+6[+Man with Gun[+Hold it right there!
+(+
+J. Robert Lucky, Man of Substance
+13
+Horace and Mathilde discover that the mysterious orange powder filling Doctor Lucky’s air vents is neither Agent Orange nor weaponized Tang, but a rare form of cheese mold.
+4
+3
+1[+Man with Rope[+Look out below!
+2[+Svetlana[+Says who?
+5[+Accidental Victim[+Ow! My spine!
+(+
+Swing 'em Wide
+19
+Black Jack invites Dixon and The Captain to a late-night poker game. Little do they know that Gertrude and Isabella await them at the table.
+6
+3
+1[+Thrifty Mike[+Call!
+3[+Sober Physician[+Raise!
+5[+Man on Floor[+Fold!
+(+
+Thirteen the Hard Way
+17
+After operating for only six minutes, the Pony Express disbands and gives way to the international Telegraph and Railroad systems. Little boys cry.
+5
+3
+2[+Very Wet Man[+Sheesh!
+4[+Dejected Housewife[+Its time had come.
+5[+Man with Box[+Progress!
+(+
+Swing 'em Wide
+35
+Hector makes a surprising discovery behind the Chinese grocery store.
+6
+3
+3[+Liberated Nun[+Let me have it!
+5[+Witch Doctor[+Oogie Boogie!
+6[+Voice of Reason[+Come on, now!
+(+
+How They Get Milk
+8
+Josie is thoroughly off milk at this point. The Milkman shows her one more way that she might not have heard of before.
+4
+3
+4[+Marksman[+Pull!
+5[+Postal Worker[+It’s about time!
+6[+A Horse[+Yes Sir!
+(+
+Trials of the First Pioneers
+5
+A fire breaks out in the town livery. Before long, the surrounding buildings are engulfed in flame. The world falls into chaos.
+4
+3
+2[+Burning Man[+Make it stop!
+4[+Cheese Vendor[+Opa!
+5[+Hit with Table[+Ow! A table?
+(+
+Breakin’ in Trick Ponies
+19
+Uncle Stewart reveals what to do when all else fails.
+3
+2
+2[+Fraternity Pledge[+Beer me!
+6[+Man with Sword[+None shall pass!
+(+
+How the Grinch Stole Texas
+9
+The doe-eyed citizens of El Paso gather together around a warm fire and pray for the safety of those poor souls in Oklahoma. It almost works.
+5
+3
+3[+Detective[+I have a hunch.
+4[+File Clerk[+My stapler!
+5[+Cindy Lou[+Dear Lord!
+(+
+Custer’s Other Stands
+40
+General George Armstrong Custer clinches another victory at the battle of Little Sands. His trusty steed Cairo is not so lucky.
+5
+3
+2[+Farmer[+Git off a that!
+4[+Exploding Horse[+Boom!
+6[+Jack[+Here we go again!
